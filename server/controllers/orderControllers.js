@@ -6,7 +6,7 @@ const placeOrder = async (req,res)=>{
 
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
-    const client_url ="http://localhost:5173"
+    const client_url ="https://react-food-delivery-app-client.onrender.com/"
 
     try {
 
