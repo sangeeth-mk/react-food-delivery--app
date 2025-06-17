@@ -1,3 +1,3 @@
-const baseUrl = "http://localhost:3001"
+const baseUrl = "https://react-food-delivery-app-3tbn.onrender.com"
 
 export default baseUrl
