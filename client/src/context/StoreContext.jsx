@@ -7,7 +7,7 @@ const StoreContextProvider = (props)=>{
 
     const [cartItems,setCartItems] = useState({})
 
-    const url = "http://localhost:3001"
+    const url = "https://react-food-delivery-app-3tbn.onrender.com"
 
     const [token,setToken] = useState("")
     const [foodList,setFoodlist] = useState([])
